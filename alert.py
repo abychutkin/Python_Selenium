@@ -16,7 +16,6 @@ alert = browser.switch_to.alert
 alert.accept()
 
 data = browser.find_element_by_id('input_value').text
-
 input_field = browser.find_element_by_id('answer')
 input_field.send_keys(calc(data))
 
